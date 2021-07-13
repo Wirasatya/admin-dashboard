@@ -1,0 +1,11 @@
+.home {
+  flex: 4;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .widget {
+    display: flex;
+    margin: 20px;
+  }
+}
